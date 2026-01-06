@@ -1,0 +1,31 @@
+name: Bug report
+description: Report a problem with megrez
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected.
+      placeholder: Clear and concise description
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: Provide minimal steps and sample input if possible.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Logs / output
+      description: Paste relevant output or error messages.
+      render: shell
+  - type: input
+    attributes:
+      label: Version
+      description: Output of `megrez --version` (or commit hash).
+      placeholder: megrez 0.1.0
