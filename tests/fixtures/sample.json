@@ -1,0 +1,4 @@
+[
+  {"id": 1, "user": {"id": "u1", "active": true}, "tags": ["a", "b"]},
+  {"id": 2, "user": {"id": "u2", "active": null}, "tags": []}
+]
