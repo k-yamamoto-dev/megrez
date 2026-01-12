@@ -17,7 +17,7 @@ thiserror = "1"
 csv = "1"
 apache-avro = "0.16"
 arrow = "53"
-parquet = { version = "53", features = ["arrow"] }
+parquet = { version = "54", features = ["arrow"] }
 
 [dev-dependencies]
 
