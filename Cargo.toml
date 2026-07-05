@@ -16,7 +16,7 @@ serde_json = { version = "1", features = ["preserve_order"] }
 thiserror = "1"
 csv = "1"
 apache-avro = "0.16"
-arrow = "53"
+arrow = "54"
 parquet = { version = "53", features = ["arrow"] }
 
 [dev-dependencies]
